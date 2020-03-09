@@ -1,0 +1,1 @@
+python freeze_graph.py --input_graph=../checkpoints/textcnn_graph.pb --input_checkpoint=../checkpoints/TextCNNnet_2020-03-09-15-29-25.ckpt-3500 --output_graph=cnn.pb --output_node_name=output
